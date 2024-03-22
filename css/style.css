@@ -64,6 +64,9 @@ header{
 	header{
 		display: none;
 	}
+	.home{
+		transform: translateY(-10%);
+	}
 }
 
 
