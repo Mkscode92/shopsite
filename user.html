@@ -152,7 +152,7 @@
     <div class = "wrapper">
         <form action = "">
             <div style="background-color:  #00427C;" class="image-title-container">
-                <img src="AiC.png">
+                <img src="AiC.png" id = "home" style = "cursor: pointer;">
                 <span>Online Merchandise Store</span> 
             </div>
             <h1 style = "text-decoration: underline; margin-top: 15px;">Sign In</h1>
@@ -178,6 +178,15 @@
             </div>
         </form>
     </div>
+
+    <script>
+        const homeButton = document.getElementById('home');
+      
+        homeButton.addEventListener('click', function(event) {
+          event.preventDefault(); 
+          window.location.href = 'index.html';
+        });
+      </script>
     
 </body>
 </html>
